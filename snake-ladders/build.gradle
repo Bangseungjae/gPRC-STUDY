@@ -1,0 +1,79 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.13'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+	id 'com.google.protobuf' version '0.9.3'
+}
+
+group = 'com.bsj'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '17'
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+ext {
+	gRPCJavaVersion = "1.54.0"
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// Spring Boot
+	implementation 'org.springframework.boot:spring-boot-starter'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// gPRC
+	implementation "io.grpc:grpc-netty-shaded:${gRPCJavaVersion}"
+	implementation "io.grpc:grpc-protobuf:${gRPCJavaVersion}"
+	implementation "io.grpc:grpc-stub:${gRPCJavaVersion}"
+	implementation 'com.google.protobuf:protobuf-java:3.19.6'
+
+	// Test
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+	implementation 'com.fasterxml.jackson:jackson-bom:2.13.5'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+// generateProto 수행시 아래 디렉터리에 파일이 생성된다.
+sourceSets {
+	src {
+		main {
+			java {
+				srcDirs 'build/generated/source/proto/main/grpc'
+				srcDirs 'build/generated/source/proto/main/java'
+			}
+		}
+	}
+}
+
+protobuf {
+	protoc {
+		artifact = 'com.google.protobuf:protoc:3.12.2'
+	}
+
+	plugins {
+		grpc {
+			artifact = "io.grpc:protoc-gen-grpc-java:${gRPCJavaVersion}"
+		}
+	}
+	generateProtoTasks {
+		all()*.plugins {
+			grpc {}
+		}
+	}
+}
