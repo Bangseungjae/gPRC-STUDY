@@ -1,1 +1,1 @@
-### Muti Module Spring gRPC Project
+### Multi Module Spring gRPC Project
