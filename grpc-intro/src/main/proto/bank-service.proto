@@ -29,7 +29,6 @@ message DepositRequest {
 }
 
 
-
 service BankService {
 
   // unary
@@ -40,6 +39,25 @@ service BankService {
 
   // client-side streaming
   rpc cashDeposit(stream DepositRequest) returns (Balance);
+
+//  rpc withdraw(WithDrawRequest) returns (WithdrawResponse);
 }
+
+enum ErrorMessage {
+  ONLY_TEN_MULTIPLES = 0;
+  INSUFFICIENT_BALANCE = 1;
+}
+
+message WithdrawalError {
+  ErrorMessage error_message =1;
+  int32 amount = 2;
+}
+
+//message WithdrawResponse {
+//  oneof response {
+//    Money money = 1;
+//    Error error = 2;
+//  }
+//}
 
 

@@ -1,0 +1,6 @@
+rootProject.name = 'grpc-flix'
+
+include 'aggregate-service'
+include 'movie-service'
+include 'user-service'
+include 'proto'

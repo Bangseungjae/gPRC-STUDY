@@ -1,0 +1,12 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûý8Éƒ¯Í–1
+]	java:S125="<This block of commented-out lines of code should be removed.(Á¡ßáøÿÿÿÿ8Ìƒ¯Í–1
+q
+java:S1128"ORemove this unused import 'com.google.common.util.concurrent.Uninterruptibles'.(­…ûÿÿÿÿ8»Î´Í–1
+I
+java:S1128",Remove this unused import 'io.grpc.Context'.(„‚³ë8»Î´Í–1
+]
+java:S1128
+";Remove this unused import 'io.grpc.StatusRuntimeException'.(Úþ–åþÿÿÿÿ8»Î´Í–1
+W
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™þ8»Î´Í–1

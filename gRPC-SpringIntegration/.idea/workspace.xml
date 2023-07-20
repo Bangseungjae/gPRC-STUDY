@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb293d4f-04b3-429e-8bfc-31569101f5c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../grpc-intro/src/main/java/com/bsj/server/ssl/BankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-intro/src/main/java/com/bsj/server/ssl/GrpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-intro/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-intro/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-intro/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-intro/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-intro/src/main/java/com/bsj/server/metadata/GrpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-intro/src/main/java/com/bsj/server/metadata/GrpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-intro/src/main/java/com/bsj/server/metadata/MetadataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-intro/src/main/java/com/bsj/server/metadata/MetadataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-intro/src/main/proto/bank-service.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-intro/src/main/proto/bank-service.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-intro/src/test/java/com/bsj/client/metadata/ClientConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-intro/src/test/java/com/bsj/client/metadata/ClientConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-intro/src/test/java/com/bsj/client/rpctypes/BankClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-intro/src/test/java/com/bsj/client/rpctypes/BankClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grpc-intro/src/test/java/com/bsj/client/rpctypes/MoneyStreamingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../grpc-intro/src/test/java/com/bsj/client/rpctypes/MoneyStreamingResponse.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SpFqh1bgvFUZodpghTBoq4W1Pp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "a57a426b7c41c6fd394fb4ef11d50082"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="GRpcSpringIntegrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gRPC-SpringIntegration.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bsj.gRPCSpringIntegration.GRpcSpringIntegrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb293d4f-04b3-429e-8bfc-31569101f5c1" name="Changes" comment="" />
+      <created>1689835808867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689835808867</updated>
+      <workItem from="1689835809433" duration="680000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
