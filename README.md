@@ -1,5 +1,5 @@
 # gPRC-STUDY
-gRPC study by udemy
+gRPC Study
 ---
 
 I config gradle and maven setting 
